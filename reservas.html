@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="app.js" async></script>
+    <title>Reservas</title>
+  </head>
+  <body>
+    <header></header>
+
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <section class="contenedor">
+      <div class="contenedor-items">
+        <div class="itemr">
+          <h2 id="tituloreserva" style="color: #e2625c">Reserva Aqui</h2>
+          <br />
+          <form class="form">
+            <label class="letras" for=""
+              >Ciudad:
+              <select id="ciudad">
+                <option value="" selected disabled>Seleccione</option>
+                <option value="barranquilla">Barranquilla</option>
+              </select>
+            </label>
+            <label class="letras" for="barrio"
+              >Sede:
+              <select id="barrio">
+                <option value="" selected disabled>Seleccione</option>
+                <option value="santodomingo">Santo Domingo</option>
+                <option value="ciudadela">Ciudadela 20 de Julio</option>
+                <option value="7deabril">7 de Abril</option>
+              </select>
+            </label>
+            <label class="letras" for="fecha"
+              >Fecha de reserva:
+              <input type="date" id="fecha" />
+            </label>
+            <label class="letras" for="hora"
+              >Hora de reserva:
+              <select id="hora">
+                <option value="" selected disabled>Seleccione</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+                <option value="20">20:00</option>
+                <option value="21">21:00</option>
+                <option value="22">22:00</option>
+              </select>
+            </label>
+            <label class="letras" for="personas"
+              >Numero de personas:
+              <select id="personas">
+                <option value="" selected disabled>Seleccione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </label>
+            <br />
+            <br />
+            <a href="index.html">
+              <input type="text" value="Atras" class="boton-item" />
+            </a>
+            <a href="formularioreserva.html">
+              <input type="text" value="Reservar" class="boton-item" />
+            </a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
